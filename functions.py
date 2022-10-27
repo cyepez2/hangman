@@ -18,7 +18,7 @@ def num_dividedFrom_add_numbers(num, addedNum):
   # Declare a function called greet, which every time it is called prints "Hello world!"
   
   # You should only define the function, you should not call it later.
-  Def greet():
+def greet():
   return print("Hello world!")
 
 
@@ -26,6 +26,8 @@ def num_dividedFrom_add_numbers(num, addedNum):
 ########################################################################################################################
 # Create Functions Practice #2
 # Declare a function called welcome, which takes a person's name as an argument, and every time it is called, it prints "Welcome {name}!"
+def welcome(name):
+  return print ("Welcome " + name)
 
 # Create the variable name, and store any name inside of it, so we can test the function with a name of your choosing.
 
